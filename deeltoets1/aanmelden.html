@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Opdracht 1 - Aanmelden</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Frontend Development">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Richard Blok">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="index">Home</a></li>
+			<li><a href="opleiding.html">Opleiding</a></li>
+			<li><a href="onderwijsprogramma">Onderwijsprogramma</a></li>
+			<li><a href="organisatie">Organisatie</a></li>
+			<li><a href="aanmelden.html">Stages en projecten</a></li>
+		</ul>
+	</nav>
+	<div class="main">
+		<article>
+			<h1>Aanmelden</h1>
+			<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+			Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook 
+			lopen de studenten stage, in het tweede en afstudeerjaar. 
+			CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad 
+			Amsterdam.<br>
+			Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. 
+			Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. 
+			Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.
+			Contactgegevens:</p>
+
+			<form id="form" method="POST" action="">
+				<p id="form">
+					<label for="naam">Naam:</label> <input type="text" id="naam"><br> 
+					<label for="bedrijf">Bedrijf:</label> <input type="text" id="bedrijf"><br> 
+					<label for="adres">Adres:</label> <input type="text" id="adres"><br> 
+					<label for="postcode">Postcode:</label> <input type="text" id="postcode"><br> 
+					<label for="plaats">Plaats:</label> <input type="text" id="plaats"><br> 
+					<label for="telefoon">Telefoon:</label> <input type="number" id="telefoon"><br> 
+					<label for="email">Email:</label> <input type="email" id="email"> 
+				</p>
+				<p>
+					Ik wil mijn aanmelden:<br> 
+					<input type="radio" value="project">Voor een project 
+					<input id="radio" type="radio" value="stage">Als stagebedrijf
+				</p>
+				<table>
+				    <tr bgcolor="#bbbcbc">
+				        <td><h2>Project</h2></td><td><h2>Stage</h2></td>
+				    </tr>
+				    <tr>
+				        <td>1. Titel: <input type="text" id="titel"><br>
+				        	2. Opdrachtomschrijving: <input type="text" id="opdracht"><br>
+				        	3. Doelgroepomschrijving: <input type="text" id="doelgroep"><br>
+				        	4. Doelstelling/ intentie van het project: <input type="text" id="doelstelling"><br>
+				        	5. Looptijd: <input type="text" id="looptijd"><br>
+				        	6. Deadline: <input type="text" id="deadline">
+				        </td>
+
+				        <td>Geschikt voor:<br><br>
+				        	<input type="radio" value="tweedejaars">1. Tweedejaars studenten<br>
+				        	<input type="radio" value="afstudeer">2. Afstudeer studenten<br>
+				        	<input type="radio" value="onbekend">3. Onbekend
+				        </td>
+				    </tr>
+				    <tr>
+				        <td>Geschikt voor:<br><br>
+				        	<input type="radio" value="eerstejaars">1. Eerstejaars studenten<br>
+				        	<input type="radio" value="tweedejaars">2. Tweedejaars studenten<br>
+				        	<input type="radio" value="onbekend">3. Derdejaars studenten<br>
+				        	<input type="radio" value="afstudeer">4. Afstudeer studenten<br>
+				        	<input type="radio" value="onbekend">5. Onbekend
+				        </td>
+
+				        <td>1. Hoe lang is de stage?:<br><br>
+				        	<input type="radio" value="10weken">- 10 weken<br>
+				        	<input type="radio" value="20weken">- 20 weken<br><br>
+				        	2. Begin datum: <input type="text" id="datum">
+				        </td>
+				    </tr>
+				    <tr>
+				        <td>Opmerking:<br>
+				        	<textarea name="opmerking" cols="30" rows="10" id="msg_text"></textarea>
+				    	</td>
+				    	<td>Beschrijving werkzaamheden:<br>
+							<textarea name="beschrijving" cols="30" rows="10" id="msg_text"></textarea>
+						</td>
+				    </tr>
+				    <tr>
+				    	<td></td>
+				    	<td>Beschrijving stagebedrijf:<br><br>
+				        	1. Bedrijfsnaam: <input type="text" id="bedrijfsnaam"><br>
+				        	2. Adres: <input type="text" id="adres"><br>
+				        	3. Postcode: <input type="text" id="postcode"><br>
+				        	4. Plaats: <input type="text" id="plaats"><br> 
+				        	5. Sector: <input type="text" id="sector"><br>
+				        	6. Core Business: <input type="text" id="core">
+				        </td>
+				    </tr>
+				    <tr>
+				    	<td>
+
+				    	</td>
+				    	<td>Opmerking:<br>
+				        	<textarea name="opmerking" cols="30" rows="10" id="msg_text"></textarea>
+				    	</td>
+				    </tr>
+				    <tr>
+				    	<td colspan = "2">
+				    		<input type="submit" value="submit">
+				    	</td>
+				    </tr>
+				</table>
+			</form>
+		</article>
+	</div>
+</body>
+
+</html>
